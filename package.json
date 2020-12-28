@@ -1,0 +1,25 @@
+{
+  "name": "nodejstodoapi",
+  "version": "1.0.0",
+  "description": "todoapi",
+  "main": "index.js",
+  "dependencies": {
+    "filepaths": "^0.3.0",
+    "hapi": "^18.1.0",
+    "hapi-sequelize-crud2": "^2.7.4",
+    "joi": "^17.3.0",
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  db:
+    image: postgres
+    environment: 
+      POSTGRES_PASSWORD: '1111'
+      POSTGRES_USER: Dev
+      POSTGRES_DB: database_development
+    command: 
+      - "postgres"
+    ports:
+      - "127.0.0.1:5432:5432"
